@@ -6,8 +6,10 @@ import lombok.Builder;
 import lombok.Data;
 
 
+
+
 @Data
-@Builder
+@Builder 
 public class Color {
   private Long colorPK;
   private String colorId;
@@ -15,3 +17,4 @@ public class Color {
   private BigDecimal price;
   private boolean isExterior;
 }
+
